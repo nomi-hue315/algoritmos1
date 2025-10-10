@@ -1,0 +1,14 @@
+Solicitar las coordenadas de dos puntos: (x1, y1) y (x2, y2).
+# Problema 3 - Fórmula de la pendiente
+
+# Solicitar coordenadas de los dos puntos
+x1 = float(input("Ingresa x1: "))
+y1 = float(input("Ingresa y1: "))
+x2 = float(input("Ingresa x2: "))
+y2 = float(input("Ingresa y2: "))
+
+# Calcular la pendiente
+m = (y2 - y1) / (x2 - x1)
+
+# Imprimir el resultado
+print("La pendiente de la recta es:", m)
